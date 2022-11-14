@@ -1,0 +1,10 @@
+.body{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.start-page {
+    width: 1280px;
+    height: 908px;
+    background-image: url(./../assets/img/start-screen-gradient-background.png);
+}
