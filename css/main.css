@@ -138,3 +138,90 @@
 .about-info_content .first{
     margin-bottom: 25px;
 }
+
+.pets {
+    background-color: #F6F6F6;
+}
+
+.pets h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 400px;
+    height: 90px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 440px;
+    padding-top: 80px;
+    margin-bottom: 60px;
+}
+
+.pets h3 p{
+    margin: 0;
+}
+
+.pets_slider {
+    margin: 0 40px 60px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pets_slider div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+    margin: 0 40px;
+    border-radius: 9px;
+}
+
+.pets_slider p{
+    height: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #545454;
+    margin: 30px 0 0 0;
+}
+
+.pets_slider button {
+    padding: 13px 43px;
+    border: #F1CDB3 solid 2px;
+    border-radius: 100px;
+    color: #292929;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    background-color: #FAFAFA;
+    margin: 30px 41.5px;
+}
+
+.pets_slider button:hover{
+    background-color: #F1CDB3;
+}
+
+.pets_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pets_button  button{
+    padding: 15px 45px;
+    border: 0px;
+    border-radius: 100px;
+    color: #292929;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    background-color: #F1CDB3;
+    margin-bottom: 100px;
+}
