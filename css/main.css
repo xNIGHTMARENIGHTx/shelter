@@ -258,23 +258,23 @@
     margin-bottom: 60px;
 }
 
-.help > div{
+.help_list {
     display: flex;
     justify-content: space-between;
     column-gap: 120px;
 }
 
-.help > div div{
+.help_list div{
     text-align: center;
     margin-bottom: 55px;
 }
 
-.help > div img{
+.help_list img{
     height: 60px;
     margin-bottom: 25px;
 }
 
-.help > div h4{
+.help_list h4{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 20px;
