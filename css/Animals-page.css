@@ -131,10 +131,17 @@
     justify-content: center;
 }
 
-.first.nav_btn.disabled,
-.previous.nav_btn.disabled{
+.nav_btn:hover{
+    background-color: #F1CDB3;
+}
+
+.nav_btn.disabled{
     color: #CDCDCD;
     border-color: #CDCDCD;
+}
+
+.nav_btn.disabled:hover{
+    background-color: transparent;
 }
 
 .page_number.nav_btn {
