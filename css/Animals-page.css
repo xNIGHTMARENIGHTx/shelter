@@ -26,6 +26,7 @@
     text-decoration: none;
     border-bottom: 3px solid transparent;
     margin-left: 1px;
+    transition: 100ms ease-in-out;
 }
 
 .header-nav a:hover {
@@ -101,6 +102,7 @@
     background-color: #FAFAFA;
     margin: 30px 41.5px;
     cursor: pointer;
+    transition: 100ms ease-in-out;
 }
 
 .pets-content_cards-container button:hover{
@@ -129,6 +131,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 100ms ease-in-out;
 }
 
 .nav_btn:hover{
@@ -138,6 +141,7 @@
 .nav_btn.disabled{
     color: #CDCDCD;
     border-color: #CDCDCD;
+    transition: none;
 }
 
 .nav_btn.disabled:hover{
@@ -146,4 +150,5 @@
 
 .page_number.nav_btn {
     background-color: #F1CDB3;
+    transition: none;
 }
